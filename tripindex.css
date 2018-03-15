@@ -1,0 +1,39 @@
+/*fundo*/
+body {  
+ background: url("img/belem.jpg");
+ background-size: 1180px 700px; /*x e y*/
+ background-repeat: no-repeat;
+ background-position: 190px 10px; /*x e y */
+ background-attachment: fixed;
+
+}
+/*imagens*/
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+/*div de centralização input*/
+div { 
+width: 400px; /*largura*/
+height: 150px; /*altura*/
+left: 40%; 
+margin: -10px 0 0 -10px; /* margin-top (superior), margin-right (direita), margin-bottom (inferior) e margin-left (esqueda)*/
+padding:10px;
+position:absolute;
+ }
+
+label {
+	font-family: times;
+	font-size: 16px;
+}
+
+buttonc{
+display: block;
+margin:auto;
+width:120px;
+left:100px;
+position: absolute;
+
+}
